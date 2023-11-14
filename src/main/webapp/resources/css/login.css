@@ -1,0 +1,41 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-image: url('../images/background.jpg');
+}
+
+button {
+  justify-content: center;
+  background-color: #e74c3c; /* Red */
+  width: 100%;
+  color: #fff; /* White text color */
+  padding: 15px;
+  margin: 10px 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px; /* Rounded corners */
+}
+
+form {
+  border: 2px solid #3498db; /* Blue */
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px; /* Add padding */
+  border-radius: 10px; /* Rounded corners */
+}
+
+input[type="text"],
+input[type="password"] {
+  justify-content: center;
+  width: 100%;
+  margin: 8px 0;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 2px solid #2ecc71; /* Green */
+  box-sizing: border-box;
+  border-radius: 5px; /* Rounded corners */
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
